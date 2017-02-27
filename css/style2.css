@@ -1,6 +1,8 @@
 body{
-	background-color: gray;
-	font-family: helvetica sans-serif;
+	background-color: white;
+	font-family: helvetica, sans-serif;
+	margin: 0;
+	color: #464646;
 }
 nav{
 	display: block;
@@ -23,4 +25,64 @@ li{
 	display: inline;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+header{
+	background-image: url("http://www.mynameischad.design/uploads/6/4/1/5/64150671/background-images/435781087.gif");
+	color: white;
+	height: 16em;
+}
+h2{
+	text-align: center;
+}
+.header_color{
+	background-color: rgba(224, 127, 30, 0.74);
+	width: 100%;
+	height: 100%;
+}
+#header_divs{
+	width: 75%;
+	margin: 0 auto;/* why doesn't this work here but it works for .project?*/
+}
+.header_txt{
+	width: 49%;
+	display: inline-block;
+}
+.project{
+	width: 75%;
+	margin: 0 auto; 
+}
+.hero_group{
+	width: 49.5%; /*why can't I use the full 50%?*/
+	display: inline-block;
+}
+.heroes{
+	width: 100%;
+}
+.buttons{
+	margin: 30px auto;
+/*	display: inline; 
+ why does this put the buttons to the right of the img?  
+And why does it auto-place them below? */
+}
+.button{
+	text-align: center;
+	margin: 0 12.5%;
+	padding: 20px;
+	background-color: orange;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+}
+.about{
+	width: 75%;
+	margin: 0 auto;
+}
+.footer{
+	display: inline-block;
+}
+#me{
+	text-align: center;
+}
+#about_me{
+	vertical-align: top;
 }
