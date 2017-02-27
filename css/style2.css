@@ -20,6 +20,9 @@ h3{
 	line-height: 1.5em;
 	margin-bottom: 0;
 }
+h4{
+	color: rgba(244, 141, 13, 1);
+}
 p{
 	line-height: 1.5em;
 	font-weight: 100;
@@ -44,9 +47,11 @@ ul{
 	float: right;
 }
 li{
+/*	text-decoration: none; why doesn't it work here but it works on the buttons?*/
 	display: inline;
 	padding-left: 5px;
 	padding-right: 5px;
+	color: rgba(244, 141, 13, 1);
 }
 header{
 	background-image: url("http://www.mynameischad.design/uploads/6/4/1/5/64150671/background-images/435781087.gif");
@@ -55,7 +60,7 @@ header{
 	vertical-align: center;
 }
 .header_color{
-	background-color: rgba(224, 127, 30, 0.74);
+	background-color: rgba(244, 141, 13, .75);
 	width: 100%;
 	height: 100%;
 }
@@ -97,7 +102,7 @@ And why does it auto-place them below? */
 	text-align: center;
 	margin: 0 12.25%; /*is there a way to just space these evenly?*/
 	padding: 15px 20px;
-	background-color: orange;
+	background-color: rgba(244, 141, 13, 1);
 	border-radius: 5px;
 	text-decoration: none;
 	color: white;
