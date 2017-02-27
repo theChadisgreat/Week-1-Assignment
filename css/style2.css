@@ -6,19 +6,28 @@ body{
 	color: #464646;
 }
 h1{
+	font-size: 2.5em;
 	font-weight: 300;
 }
 h2{
 	font-size: 2em;
 	text-align: center;
-	font-weight: 150;
+	font-weight: 100;
 }
 h3{
 	font-size: 1.5em;
 	font-weight: 300;
-	line-height: .75em;
+	line-height: 1.5em;
+	margin-bottom: 0;
+}
+p{
+	line-height: 1.5em;
+	font-weight: 100;
+	margin-top: 0;
 }
 nav{
+	position: fixed;
+	width: 100%;
 	display: block;
 	background-color: white;
 	margin: 0;
@@ -30,8 +39,7 @@ nav{
 }
 ul{
 	list-style-type: none;
-	margin: 40px auto;
-	padding-bottom: 20px;
+	margin: 40px 20px;
 	padding-right: 20px;
 	float: right;
 }
@@ -43,7 +51,7 @@ li{
 header{
 	background-image: url("http://www.mynameischad.design/uploads/6/4/1/5/64150671/background-images/435781087.gif");
 	color: white;
-	height: 30em;
+	height: 34em;
 	vertical-align: center;
 }
 .header_color{
@@ -53,6 +61,7 @@ header{
 }
 .header_divs{
 	width: 75%;
+	padding-top: 15em;
 	margin: 0 auto;/* why doesn't this work here but it works for .project?*/
 }
 .header_txt{
@@ -71,8 +80,9 @@ hr{
 	margin: 0 auto; 
 }
 .hero_group{
-	width: 49.5%; /*why can't I use the full 50%?*/
+	width: 49%; /*why can't I use the full 50%?*/
 	display: inline-block;
+	padding-left: .5%;
 }
 .heroes{
 	width: 100%;
@@ -85,8 +95,8 @@ And why does it auto-place them below? */
 }
 .button{
 	text-align: center;
-	margin: 0 12.5%;
-	padding: 20px;
+	margin: 0 12.25%; /*is there a way to just space these evenly?*/
+	padding: 15px 20px;
 	background-color: orange;
 	border-radius: 5px;
 	text-decoration: none;
@@ -99,9 +109,13 @@ And why does it auto-place them below? */
 .footer{
 	display: inline-block;
 }
+.face{
+	margin: 10px 0;
+}
 #me{
 	text-align: center;
 }
 #about_me{
 	vertical-align: top;
+	margin-top: 24px;
 }
