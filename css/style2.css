@@ -5,29 +5,35 @@ body{
 	margin: 0;
 	color: #464646;
 }
+
 h1{
 	font-size: 2.5em;
 	font-weight: 300;
 }
+
 h2{
 	font-size: 2em;
 	text-align: center;
 	font-weight: 100;
 }
+
 h3{
 	font-size: 1.5em;
 	font-weight: 300;
 	line-height: 1.5em;
 	margin-bottom: 0;
 }
+
 h4{
 	color: rgba(244, 141, 13, 1);
 }
+
 p{
 	line-height: 1.5em;
 	font-weight: 100;
 	margin-top: 0;
 }
+
 nav{
 	position: fixed;
 	width: 100%;
@@ -36,16 +42,19 @@ nav{
 	margin: 0;
 	padding: 20px;
 }
+
 .logo{
 	width: 100px;
 	padding-left: 20px;
 }
+
 ul{
 	list-style-type: none;
 	margin: 40px 20px;
 	padding-right: 20px;
 	float: right;
 }
+
 li{
 /*	text-decoration: none; why doesn't it work here but it works on the buttons?*/
 	display: inline;
@@ -53,51 +62,63 @@ li{
 	padding-right: 5px;
 	color: rgba(244, 141, 13, 1);
 }
+
 header{
 	background-image: url("http://www.mynameischad.design/uploads/6/4/1/5/64150671/background-images/435781087.gif");
 	color: white;
 	height: 34em;
 	vertical-align: center;
 }
+
 .header_color{
 	background-color: rgba(244, 141, 13, .75);
 	width: 100%;
 	height: 100%;
 }
+
 .header_divs{
 	width: 75%;
 	padding-top: 15em;
 	margin: 0 auto;/* why doesn't this work here but it works for .project?*/
 }
+
 .header_txt{
 	margin-top: 2em;
 	width: 49%;
 	display: inline-block;
 }
+
 hr{
 	border: 1px solid #f0f0f0;
 }
+
 .top{
 	margin-top: 3em;
 }
+
 .project{
 	width: 75%;
 	margin: 0 auto; 
 }
+
 .hero_group{
-	width: 49%; /*why can't I use the full 50%?*/
+	width: 49%; /*why can't I use the full 50%?  Right now it's just making the elements wrap.*/
 	display: inline-block;
 	padding-left: .5%;
 }
+
 .heroes{
 	width: 100%;
 }
+
 .buttons{
 	margin: 30px auto;
 /*	display: inline; 
- why does this put the buttons to the right of the img?  
+ why does this put the buttons to the right of the img? 
+ It seems like this should only apply to the buttons and not the whole parent div. 
 And why does it auto-place them below? */
 }
+
 .button{
 	text-align: center;
 	margin: 0 12.25%; /*is there a way to just space these evenly?*/
@@ -107,19 +128,24 @@ And why does it auto-place them below? */
 	text-decoration: none;
 	color: white;
 }
+
 .about{
 	width: 75%;
 	margin: 0 auto;
 }
+
 .footer{
 	display: inline-block;
 }
+
 .face{
 	margin: 10px 0;
 }
+
 #me{
 	text-align: center;
 }
+
 #about_me{
 	vertical-align: top;
 	margin-top: 24px;
